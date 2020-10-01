@@ -36,19 +36,6 @@ class YouTubeDebugger extends React.Component {
         }
       }
     });
-
-    /*
-    Or this can be defined using the Object.assign method:
-
-    this.setState({
-      settings: Object.assign({}, this.state.settings, {
-        video: Object.assign({}, this.state.settings.video, {
-          resolution: '720p'
-        })
-      })
-    });
-
-    */
   };
 
   render() {
